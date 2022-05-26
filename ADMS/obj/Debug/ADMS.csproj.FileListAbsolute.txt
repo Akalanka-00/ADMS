@@ -1,0 +1,12 @@
+D:\Projects\c#\ADMS\ADMS\bin\Debug\ADMS.exe.config
+D:\Projects\c#\ADMS\ADMS\bin\Debug\ADMS.exe
+D:\Projects\c#\ADMS\ADMS\bin\Debug\ADMS.pdb
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.AssemblyReference.cache
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.SuggestedBindingRedirects.cache
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.SplashScreen.resources
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.Properties.Resources.resources
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.GenerateResource.cache
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.CoreCompileInputs.cache
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.exe
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.pdb
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.companyScreen.resources
