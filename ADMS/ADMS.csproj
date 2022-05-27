@@ -76,6 +76,7 @@
     <Compile Include="companyScreen.Designer.cs">
       <DependentUpon>companyScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="emailClass.cs" />
     <Compile Include="firebaseConn.cs" />
     <Compile Include="HomeScreen.cs">
       <SubType>Form</SubType>

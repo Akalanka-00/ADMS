@@ -38,15 +38,15 @@
             this.panel13 = new System.Windows.Forms.Panel();
             this.btnsign = new System.Windows.Forms.Button();
             this.repswPanel = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.repswTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.pswTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.emailTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
@@ -179,7 +179,7 @@
             // 
             // repswPanel
             // 
-            this.repswPanel.Controls.Add(this.textBox3);
+            this.repswPanel.Controls.Add(this.repswTextBox);
             this.repswPanel.Controls.Add(this.label6);
             this.repswPanel.Controls.Add(this.panel12);
             this.repswPanel.Dock = System.Windows.Forms.DockStyle.Top;
@@ -188,13 +188,13 @@
             this.repswPanel.Size = new System.Drawing.Size(854, 81);
             this.repswPanel.TabIndex = 3;
             // 
-            // textBox3
+            // repswTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(472, 31);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(360, 28);
-            this.textBox3.TabIndex = 4;
-            this.textBox3.Text = "testPp";
+            this.repswTextBox.Location = new System.Drawing.Point(472, 31);
+            this.repswTextBox.Name = "repswTextBox";
+            this.repswTextBox.Size = new System.Drawing.Size(360, 28);
+            this.repswTextBox.TabIndex = 4;
+            this.repswTextBox.Text = "testPp";
             // 
             // label6
             // 
@@ -216,7 +216,7 @@
             // 
             // panel11
             // 
-            this.panel11.Controls.Add(this.textBox2);
+            this.panel11.Controls.Add(this.pswTextBox);
             this.panel11.Controls.Add(this.label5);
             this.panel11.Controls.Add(this.panel10);
             this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
@@ -225,12 +225,12 @@
             this.panel11.Size = new System.Drawing.Size(854, 81);
             this.panel11.TabIndex = 2;
             // 
-            // textBox2
+            // pswTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(472, 31);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(360, 28);
-            this.textBox2.TabIndex = 0;
+            this.pswTextBox.Location = new System.Drawing.Point(472, 31);
+            this.pswTextBox.Name = "pswTextBox";
+            this.pswTextBox.Size = new System.Drawing.Size(360, 28);
+            this.pswTextBox.TabIndex = 0;
             // 
             // label5
             // 
@@ -253,7 +253,7 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.Controls.Add(this.textBox1);
+            this.panel8.Controls.Add(this.emailTextBox);
             this.panel8.Controls.Add(this.label4);
             this.panel8.Controls.Add(this.panel9);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
@@ -262,13 +262,13 @@
             this.panel8.Size = new System.Drawing.Size(854, 81);
             this.panel8.TabIndex = 1;
             // 
-            // textBox1
+            // emailTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(472, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(360, 28);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "testPp";
+            this.emailTextBox.Location = new System.Drawing.Point(472, 31);
+            this.emailTextBox.Name = "emailTextBox";
+            this.emailTextBox.Size = new System.Drawing.Size(360, 28);
+            this.emailTextBox.TabIndex = 4;
+            this.emailTextBox.Text = "testPp";
             // 
             // label4
             // 
@@ -398,15 +398,15 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel repswPanel;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox repswTextBox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox pswTextBox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox emailTextBox;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel5;
