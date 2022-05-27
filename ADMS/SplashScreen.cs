@@ -42,8 +42,8 @@ namespace ADMS
             if (loadedPanel.Width >= 800)
             {
                 timer1.Stop();
-                companyScreen cs = new companyScreen();
-                cs.Show();
+                login ls = new login();
+                ls.Show();
                 this.Hide();
             }
         }
