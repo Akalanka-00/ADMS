@@ -10,3 +10,4 @@ D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.GenerateResource.cache
 D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.CoreCompileInputs.cache
 D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.exe
 D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.pdb
+D:\Projects\c#\ADMS\ADMS\bin\Debug\ADMS.pdb
