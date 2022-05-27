@@ -26,3 +26,4 @@ D:\Projects\c#\ADMS\ADMS\bin\Debug\System.Net.Http.Extensions.xml
 D:\Projects\c#\ADMS\ADMS\bin\Debug\System.Net.Http.Primitives.xml
 D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.App.config
 D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.csproj.CopyComplete
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.login.resources
