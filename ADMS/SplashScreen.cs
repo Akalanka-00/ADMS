@@ -42,8 +42,19 @@ namespace ADMS
             if (loadedPanel.Width >= 800)
             {
                 timer1.Stop();
-                login ls = new login();
-                ls.Show();
+
+                bool newUser =  user_settings.Default.newUser;
+                if (newUser)
+                {
+                    login ls = new login();
+                    ls.Show();
+                }
+                else
+                {
+                    HomeScreen hs = new HomeScreen();
+                    hs.Show();
+                }
+  
                 this.Hide();
             }
         }

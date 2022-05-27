@@ -103,6 +103,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user_settings.cs" />
+    <Compile Include="user_settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>user_settings.settings</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="companyScreen.resx">
       <DependentUpon>companyScreen.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,6 +141,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="user_settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>user_settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
