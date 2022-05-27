@@ -52,6 +52,12 @@
     <Compile Include="companyScreen.Designer.cs">
       <DependentUpon>companyScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="OTPScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OTPScreen.Designer.cs">
+      <DependentUpon>OTPScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="companyScreen.resx">
       <DependentUpon>companyScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OTPScreen.resx">
+      <DependentUpon>OTPScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>

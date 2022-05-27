@@ -16,5 +16,12 @@ namespace ADMS
         {
             InitializeComponent();
         }
+
+        private void nextBtn_Click(object sender, EventArgs e)
+        {
+            OTP otp = new OTP();
+            otp.Show();
+            this.Close();
+        }
     }
 }
