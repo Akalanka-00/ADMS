@@ -7,7 +7,7 @@ namespace ADMS
     public partial class OTP : Form
     {
         System.Timers.Timer t;
-        int m, s, mNew, sNew;
+        int m, s, mNew, sNew, num=0;
         public OTP()
         {
             InitializeComponent();
@@ -35,6 +35,13 @@ namespace ADMS
 
         private void OTP_Load(object sender, EventArgs e)
         {
+
+            System.Random random = new System.Random();
+             num = random.Next(111111, 999999);
+            String mail = user_settings.Default.email;
+
+            emailClass ec = new emailClass();
+            ec.sendEmail(mail, "OTP verification", "Your OTP is " + num.ToString());
             countDown();
         }
 
@@ -70,7 +77,14 @@ namespace ADMS
 
         private void nxtBtn_Click(object sender, EventArgs e)
         {
-            //t.Start();
+            t.Stop();
+            if(otpTextBox.Text !="0" && otpTextBox.Text == num.ToString())
+            {
+                user_settings.Default.newUser = false;
+                HomeScreen hs = new HomeScreen();
+                hs.Show();
+                this.Close();
+            }
             
         }
 

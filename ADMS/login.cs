@@ -75,8 +75,7 @@ namespace ADMS
 
                     //Console.WriteLine(user_settings.Default.email);
                     // Console.WriteLine(user_settings.Default.password);
-                    emailClass ec = new emailClass();
-                    ec.sendEmail("shenalakalanka404@gmail.com", "Hello!", "All ok");
+
                      OTP OTP = new OTP();
                     OTP.Show();
                     this.Close();

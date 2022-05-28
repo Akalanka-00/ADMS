@@ -45,7 +45,7 @@
             this.nxtBtn = new System.Windows.Forms.Button();
             this.panel35 = new System.Windows.Forms.Panel();
             this.panel36 = new System.Windows.Forms.Panel();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.otpTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel37 = new System.Windows.Forms.Panel();
@@ -247,7 +247,7 @@
             // 
             // panel36
             // 
-            this.panel36.Controls.Add(this.textBox8);
+            this.panel36.Controls.Add(this.otpTextBox);
             this.panel36.Controls.Add(this.pictureBox9);
             this.panel36.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel36.Location = new System.Drawing.Point(154, 0);
@@ -255,18 +255,18 @@
             this.panel36.Size = new System.Drawing.Size(347, 50);
             this.panel36.TabIndex = 2;
             // 
-            // textBox8
+            // otpTextBox
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.Font = new System.Drawing.Font("Century Gothic", 10F);
-            this.textBox8.ForeColor = System.Drawing.Color.Black;
-            this.textBox8.Location = new System.Drawing.Point(46, 15);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(238, 21);
-            this.textBox8.TabIndex = 2;
-            this.textBox8.Text = "otp";
+            this.otpTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(216)))), ((int)(((byte)(247)))));
+            this.otpTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.otpTextBox.Font = new System.Drawing.Font("Century Gothic", 10F);
+            this.otpTextBox.ForeColor = System.Drawing.Color.Black;
+            this.otpTextBox.Location = new System.Drawing.Point(46, 15);
+            this.otpTextBox.Multiline = true;
+            this.otpTextBox.Name = "otpTextBox";
+            this.otpTextBox.Size = new System.Drawing.Size(238, 21);
+            this.otpTextBox.TabIndex = 2;
+            this.otpTextBox.Text = "otp";
             // 
             // pictureBox9
             // 
@@ -436,7 +436,7 @@
         private System.Windows.Forms.Button nxtBtn;
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.Panel panel36;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox otpTextBox;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Panel panel37;

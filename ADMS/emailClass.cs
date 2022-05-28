@@ -13,8 +13,8 @@ namespace ADMS
     {
         public void sendEmail(String to,String subjecet, String body)
         {
-            String from = "shenalakalanka513@gmail.com";
-            String psw = "Diologb@34";  
+            String from = "shenalakalanka404@gmail.com";
+            String psw = "diologb345";  
             MailMessage msg = new MailMessage();
             msg.To.Add(to);
             msg.From = new MailAddress(from);
