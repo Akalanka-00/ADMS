@@ -46,3 +46,5 @@ D:\Projects\c#\ADMS\ADMS\bin\Debug\System.Memory.xml
 D:\Projects\c#\ADMS\ADMS\bin\Debug\System.Numerics.Vectors.xml
 D:\Projects\c#\ADMS\ADMS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Projects\c#\ADMS\ADMS\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Projects\c#\ADMS\ADMS\obj\Debug\ADMS.HomeScreen.resources
+D:\Projects\c#\ADMS\ADMS\bin\Debug\Siticone.Desktop.UI.dll

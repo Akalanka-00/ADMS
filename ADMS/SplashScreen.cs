@@ -58,5 +58,10 @@ namespace ADMS
                 this.Hide();
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
